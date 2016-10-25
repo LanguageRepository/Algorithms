@@ -10,6 +10,10 @@ public class TestingClass {
         BubbleSort bubbleSort = new BubbleSort(10);
         System.out.println(bubbleSort);
         System.out.println("Bubble sort algorithm");
+
+        SelectSort selectSort = new SelectSort(20);
+        System.out.println(selectSort);
+
     }
 
 }
